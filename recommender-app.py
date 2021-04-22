@@ -26,6 +26,7 @@ st.write('The current movie title is', title)
 film =user_input_features(title,df)
 st.write(film)
 
+
 # Título del recomendador
 st.write('Recommendations offered by the description of the chosen film the npl')
 

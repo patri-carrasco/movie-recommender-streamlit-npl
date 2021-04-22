@@ -12,4 +12,5 @@ def user_input_features(title, df):
             'votes':film.votes
             }
     features = pd.DataFrame(data)
+    
     return features
