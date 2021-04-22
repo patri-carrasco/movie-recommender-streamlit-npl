@@ -7,6 +7,7 @@ En este proyecto vamos hacer una recomendador de películas con streamlit y proc
 Hemos estructurado el proyecto en varios archivos y carpetas para que sea más fácil su entendimiento.
 
 **images:**  carpeta de las imágenes.
+
 **data:**  carpeta donde va los archivos datos.
   
   
