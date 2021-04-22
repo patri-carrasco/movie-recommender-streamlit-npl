@@ -3,7 +3,7 @@ import pandas as pd
 from PIL import Image
 
 from src.user_input_features import user_input_features
-
+from src.npl import get_recommendations
 
 
 st.write("""
@@ -25,3 +25,5 @@ st.write('The current movie title is', title)
 film =user_input_features(title,df)
 st.write(film)
 
+
+print(get_recommendations(title,df))
