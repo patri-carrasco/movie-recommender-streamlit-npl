@@ -15,7 +15,7 @@ st.write("""
 """)
 # cargamos los datos y la imagen
 #df = pd.read_csv("./data/data_best_ratings.csv")
-df = pd.read_csv("./data/prueba.csv")
+df = pd.read_csv("./data/2000_uear_movies.csv")
 
 image = Image.open('./images/film.jpg')
 st.image(image, caption='Movie recommender')
