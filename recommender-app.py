@@ -22,8 +22,8 @@ st.image(image, caption='Movie recommender')
 
 #título del la barra lateral y obtención del título introducido por el usuario
 st.sidebar.header('Title')
-st.sidebar.subheader('Years 2000-2020')
-title = st.sidebar.text_input('Movie title', 'Batman Begins')
+
+title = st.sidebar.text_input('Movie title, years 2000-2020', 'Batman Begins')
 
 #Título de los datos indtroducidos por el usuario
 st.write('The current movie title is', title)
